@@ -3,7 +3,7 @@
 ## Tools
 
 | Name | Description | Version |
-----|---- 
+----|----|----| 
 | [Kubectl](https://kubernetes.io/docs/user-guide/kubectl-overview/) | kubectl is a command line interface for running commands against Kubernetes clusters. | 1.9.2 |
 | [Helm](https://github.com/kubernetes/helm/) | Helm is a tool for managing Kubernetes charts. | 2.9.1 |
 
