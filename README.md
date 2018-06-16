@@ -2,10 +2,10 @@
 
 ## Tools
 
-| Name | Description |
+| Name | Description | Version |
 ----|---- 
-| [Kubectl](https://kubernetes.io/docs/user-guide/kubectl-overview/) | kubectl is a command line interface for running commands against Kubernetes clusters. |
-| [Helm](https://github.com/kubernetes/helm/) | Helm is a tool for managing Kubernetes charts. |
+| [Kubectl](https://kubernetes.io/docs/user-guide/kubectl-overview/) | kubectl is a command line interface for running commands against Kubernetes clusters. | 1.9.2 |
+| [Helm](https://github.com/kubernetes/helm/) | Helm is a tool for managing Kubernetes charts. | 2.9.1 |
 
 ## Installation
 
@@ -27,5 +27,11 @@ $ docker run -v ${HOME}:/root -it thara0402/azure-cli-k8s:<version>
 ```
 
 See our [Docker tags](https://hub.docker.com/r/thara0402/azure-cli-k8s/tags/) for available versions.
+
+## Build
+```bash
+$ docker build -t thara0402/azure-cli-k8s:latest ./
+$ docker push thara0402/azure-cli-k8s:latest
+```
 
 
